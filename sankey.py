@@ -262,8 +262,8 @@ def _libr_overall(ex):
 # ---------------------------------------------------------------------------
 
 FORMULAS = {
-    "steam": "net power ÷ (flue gas exergy + pump work)",
-    "orc": "net power ÷ (flue gas exergy + pump work)",
+    "steam": "net power ÷ (flue gas exergy)",
+    "orc": "net power ÷ (flue gas exergy)",
     "trans": "(turbine work − pump work) ÷ flue gas exergy",
     "super": "net power ÷ exergy added in the flue gas heater",
     "libr": "cooling exergy ÷ flue gas exergy",
